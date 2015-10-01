@@ -22,8 +22,8 @@ The checkFn is the standard EcmaScript:
 ```javascript
 var firstN = require('array-first-n');
 
-var first5even = firstN([12, 8, 3, 1, 0, 4, 7, 9, 10, 12], 5, function(i) { return i%2 === 0});
-// [12, 8, 0, 4, 10]
+var first4even = firstN([12, 8, 3, 1, 0, 4, 7, 9, 12], 5, function(i) { return !i%2});
+// [12, 8, 0, 4]
 
 // works also on strings
 var first3nums = firstN('n0d3_R0ck5', 3, function(c) { return !isNaN(parseInt(c)); });
