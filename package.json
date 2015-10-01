@@ -1,7 +1,7 @@
 {
   "name": "array-first-n",
   "version": "1.0.0",
-  "description": "Get the first N elements of an array which satisfy a given condition. Fast as f&*k.",
+  "description": "Get the first N elements of an array which satisfy a given condition. Fast!",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
@@ -10,13 +10,14 @@
     "type": "git",
     "url": "https://github.com/ashubham/array-first-n.git"
   },
+  "homepage": "https://github.com/ashubham/array-first-n",
   "keywords": [
     "first-n",
     "array",
     "first",
     "n"
   ],
-  "author": "ashish shubham",
+  "author": "ashish shubham <ashubham@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ashubham/array-first-n/issues"

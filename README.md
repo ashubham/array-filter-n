@@ -2,7 +2,13 @@
 
 The firstN() method creates a new array with the first N elements that pass the test implemented by the provided function. Fast!
 
-### Syntax
+## Install with [npm](npmjs.org)
+
+```bash
+npm i array-first-n --save
+```
+
+## Syntax
 
 `firstN(inputArr, N, checkFn[, thisArg])`
 
@@ -11,12 +17,12 @@ The checkFn is the standard EcmaScript:
 
 `thisArg` if supplied is set as the `this` context for `checkFn`.
 
-### Examples
+## Examples
 
 ```javascript
 var firstN = require('array-first-n');
 
-var first5even = firstN([12, 8, 3, 1, 0, 4, 7, 9, 10, 12], 5, function(item) { return item%2 === 0});
+var first5even = firstN([12, 8, 3, 1, 0, 4, 7, 9, 10, 12], 5, function(i) { return i%2 === 0});
 // [12, 8, 0, 4, 10]
 
 // works also on strings
