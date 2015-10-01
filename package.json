@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashubham/array-first-n.git"
+    "url": "https://github.com/ashubham/array-filter-n.git"
   },
-  "homepage": "https://github.com/ashubham/array-first-n",
+  "homepage": "https://github.com/ashubham/array-filter-n",
   "keywords": [
     "first-n",
     "filter-n",
@@ -23,12 +23,9 @@
   "author": "ashish shubham <ashubham@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ashubham/array-first-n/issues"
+    "url": "https://github.com/ashubham/array-filter-n/issues"
   },
   "devDependencies": {
     "jasmine": "^2.3.2"
-  },
-  "dependencies": {
-    "array-slice": "^0.2.3"
   }
 }
