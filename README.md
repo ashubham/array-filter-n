@@ -16,7 +16,7 @@ The checkFn is the standard EcmaScript `function (elem, index, array)`
 var filterN = require('array-filter-n');
 
 var filter4even = 
-    firstN([12, 8, 3, 1, 0, 4, 7, 9, 12], 4, function(i) { return !i%2});
+    filterN([12, 8, 3, 1, 0, 4, 7, 9, 12], 4, function(i) { return !i%2});
 //=> [12, 8, 0, 4]
 
 // works also on strings
