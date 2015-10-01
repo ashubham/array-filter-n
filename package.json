@@ -1,6 +1,6 @@
 {
   "name": "array-first-n",
-  "version": "1.0.22",
+  "version": "1.0.2",
   "description": "Get the first N elements of an array which satisfy a given condition. Fast!",
   "main": "index.js",
   "scripts": {
