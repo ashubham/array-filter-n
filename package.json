@@ -1,6 +1,6 @@
 {
-  "name": "array-first-n",
-  "version": "1.0.2",
+  "name": "array-filter-n",
+  "version": "1.0.3",
   "description": "Get the first N elements of an array which satisfy a given condition. Fast!",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,8 @@
   "homepage": "https://github.com/ashubham/array-first-n",
   "keywords": [
     "first-n",
+    "filter-n",
+    "filter",
     "array",
     "first",
     "n"
