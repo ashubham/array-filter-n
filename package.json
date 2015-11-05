@@ -1,6 +1,6 @@
 {
   "name": "array-filter-n",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Get the first N elements of an array which satisfy a given condition. Fast!",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
     "n"
   ],
   "author": "ashish shubham <ashubham@gmail.com>",
+  "readmeFilename": "README.md",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ashubham/array-filter-n/issues"

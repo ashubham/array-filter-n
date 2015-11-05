@@ -1,4 +1,8 @@
-# array-filter-n &nbsp;<a>	<img src="https://api.travis-ci.org/ashubham/array-filter-n.png"/>  </a>
+# array-filter-n 	
+
+<a href="https://travis-ci.org/ashubham/array-filter-n">
+  <img src="https://api.travis-ci.org/ashubham/array-filter-n.svg?branch=master" class="badge">
+</a>
 
 The filterN() method creates a new array with the first N elements that pass the test implemented by the provided function. Fast!
 
